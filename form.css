@@ -13,33 +13,36 @@
 
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .top-container {
-    height: 100vh;
+    /* height: 100vh; */
     width: 70%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
 
 }
 
 .side-bar {
-    position: relative;
+    flex: 1;
     background-image: url(assets/halie-west.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 50rem;
+    /* height: 100%; */
+    width: 1rem;
+
 }
 
 .logo-container {
-    position: absolute;
-    width: 100%;
+    /* width: inherit; */
     display: flex;
     justify-content: center;
-    top: 150px;
+    /* top: 150px; */
     background-color: rgba(0, 0, 0, 0.4)
 
 }
@@ -63,7 +66,8 @@ body {
     color: white;
 }
 .content-container {
-    height: 100vh;
+    /* height: 100vh; */
+    flex: 1;
 }
 
 .content {
