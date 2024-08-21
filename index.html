@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <div class="top-container">
+        <div class="side-bar">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="assets/odin-lined.png" alt="" height="90px" width="70px">
+                </div>
+                <div class="logo-text">ODIN</div>
+            </div>
+            <div class="credit">
+                <p>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+            </div>
+        </div>
+
+        <div class="content-container">
+
+            <div  class="content">
+                <p class="intro">
+                    This is not a real online service! You you need something like this in your life to help you realise your dreams. <br>
+                    Signup now to get started <br>
+                    <br>
+                    You know you want to.
+                </p>
+            </div>
+            
+            <div class="form-container">
+
+                <h3 >Let's do this!</h3>
+
+                <form action="#" method="post" id="login">
+                
+                    <ul>
+                        <li>
+                            <label for="first-name">FIRST NAME</label> <br>
+                            <input type="text" placeholder="Thor">
+                        </li>
+                        <li>
+                            <label for="last-name">LAST NAME</label> <br>
+                            <input type="text" placeholder="Odinsson">
+                        </li>
+                        <li>
+                            <label for="email">Email</label> <br>
+                            <input type="email" placeholder="you@example.com">
+                        </li>
+                        <li>
+                            <label for="phone-number">PHONE NUMBER</label> <br>
+                            <input type="number">
+                        </li>
+                        <li>
+                            <label for="password">PASSWORD</label><br>
+                            <input type="password" class="passEl passwordOne" name="password-one">
+                            <span class="alert"></span>
+                        </li>
+                        <li>
+                            <label for="password">CONFIRM PASSWORD</label><br>
+                            <input type="password" class="passEl passwordTwo" name="password=two">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            
+            <div class="action-container">
+                <button type="submit" form="login" class="create-link">Create Account</button>
+
+                <div class="call" >
+                    <p>Already have an account? </p>
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
